@@ -12,7 +12,6 @@ public class HashGenerator {
 	public HashGenerator(String algorithm) {
 		this.algorithm = algorithm;
 	}
-	
 
 	public String generateHash(String input) {
 		try {

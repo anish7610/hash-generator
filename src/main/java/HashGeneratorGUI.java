@@ -23,6 +23,7 @@ public class HashGeneratorGUI {
     private static String filePath;
     
 	public static void main(String[] args) {
+
         Security.addProvider(new BouncyCastleProvider());
         
 		HashGenerator md5Generator = new HashGenerator("MD5");
