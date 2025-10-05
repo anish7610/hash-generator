@@ -73,7 +73,6 @@ public class HashGeneratorGUI {
         gbc.insets.left = 110;
         panel.add(calculateHashButton, gbc);
 
-        
         // Add Result Label
         gbc.gridy++;
         gbc.insets.left = 0;
@@ -113,7 +112,7 @@ public class HashGeneratorGUI {
                 	String[] parts = filePath.split("/");
                 	String fileName = parts[parts.length - 1];
                 	
-                	resultLabel.setText("Result for file: " + fileName);
+                	resultLabel.setText("Results for file: " + fileName);
                 	resultTextArea.setText("");
                 	resultTextArea.append("MD5 Hash: " + md5Generator.generateHashForFile(filePath) + "\n\n");
                 	resultTextArea.append("SHA-256 Hash: " + sha256Generator.generateHashForFile(filePath) + "\n\n");
@@ -132,7 +131,7 @@ public class HashGeneratorGUI {
             	inputString = inputTextArea.getText();
 
                 if (!inputString.isEmpty()) {
-                	resultLabel.setText("Result for Text: ");
+                	resultLabel.setText("Results for Text: ");
                 	resultTextArea.setText("");
                 	resultTextArea.append("MD5 Hash: " + md5Generator.generateHash(inputString) + "\n\n");
                 	resultTextArea.append("SHA-256 Hash: " + sha256Generator.generateHash(inputString) + "\n\n");

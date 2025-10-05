@@ -2,6 +2,11 @@
 
 ### Supports algorithms - MD5, SHA-256, SHA-512, RIPEMD-160, Whirlpool
 
+### Launch GUI
+
+- mvn clean compile
+- mvn exec:java
+
 
 ### Hash for Strings
 
