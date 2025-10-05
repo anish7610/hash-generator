@@ -1,17 +1,5 @@
-### Cryptographic Hash Generator
+## Hash Generator
 
-### Supports algorithms - MD5, SHA-256, SHA-512, RIPEMD-160, Whirlpool
+This project is documented on DeepWiki.
 
-### Launch GUI
-
-- mvn clean compile
-- mvn exec:java
-
-
-### Hash for Strings
-
-<img src="./screenshots/lorem ipsum text.png" alt="drawing" width="500"/>
-
-### Hash for File
-
-<img src="./screenshots/python zen.png" alt="drawing" width="500"/>
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/anpa6841/hash-generator)
